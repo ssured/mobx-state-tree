@@ -1,7 +1,7 @@
 # 0.7.2
 
 * Fixed `cannot read property resolve of undefined` thanks to @cpunion for reporting, now value of dead nodes will be undefined.
-* Fixed `[LateType] is not defined` thanks to @amir-arad for reporting, when using late as model property type
+* Fixed `[LateType] is not defined` thanks to @amir-arad for reporting, when using late as model property type (https://github.com/mobxjs/mobx-state-tree/issues/187) (#187)
 * Fixed `Object.freeze can only be called on Object` thanks to @ds300 for reporting, when using MST on a ReactNative environment
 * Now the entire codebase is prettier! :D
 
